@@ -1,1 +1,14 @@
 
+CONFIGURATION OF GATEWAY AND IP ADRESS
+CONNECTION OF HUB SWITCHES AND END DEVICES
+OBSERVATIONS
+    ***simple pdu is placed on pc0(source) and pc03(destination)
+    ***simulation is started and packet is transferred from pc0 to hub
+    ***from hub it is transferred to switch and pc02
+    ***at pc2 it is dencapsulated and dropped as it is not destination
+    ***switch finds the destination and transfer it to only pc03
+    ***pc03 accepts packet and dencapsulated and acknowledgement is sent to switch with destination adress pc01
+    ***switch transfers it to hub
+    ***hub transfers it to pc01 and pc02
+    ***at pc02 it is dencapsulated and dropped
+    ***at pc01 it is dencapsulated and accepted

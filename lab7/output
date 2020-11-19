@@ -1,0 +1,53 @@
+
+Enter the number the routers(<10): 5
+Enter 1 if the corresponding router is adjacent to routerA else enter 99: 
+ B C D E 
+Enter matrix:1
+1 99 99
+
+Enter 1 if the corresponding router is adjacent to routerB else enter 99: 
+ A C D E 
+Enter matrix:1
+99 99 99
+
+Enter 1 if the corresponding router is adjacent to routerC else enter 99: 
+ A B D E 
+Enter matrix:1
+1 99 1 1
+
+Enter 1 if the corresponding router is adjacent to routerD else enter 99: 
+ A B C E 
+Enter matrix:99
+99 1 99
+
+Enter 1 if the corresponding router is adjacent to routerE else enter 99: 
+ A B C D 
+Enter matrix:99 99 1 99
+
+Router Table entries for router A:-
+Destination Router: A B C D E 
+Outgoing Line: A B C D E 
+Hop Count: 0 1 1 99 99 
+
+Router Table entries for router B:-
+Destination Router: A B C D E 
+Outgoing Line: A B C D E 
+Hop Count: 1 0 99 99 99 
+
+Router Table entries for router C:-
+Destination Router: A B C D E 
+Outgoing Line: A B C D E 
+Hop Count: 1 1 0 99 1 
+
+Router Table entries for router D:-
+Destination Router: A B C D E 
+Outgoing Line: A B C D E 
+Hop Count: 1 99 99 0 1 
+
+Router Table entries for router E:-
+Destination Router: A B C D E 
+Outgoing Line: A B C D E 
+Hop Count: 99 99 99 1 0 
+
+
+
